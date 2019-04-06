@@ -1,10 +1,13 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    entry: __dirname + '/src/js/index.js',
+    entry: __dirname + '/src/js/index.tsx',
     output: {
         path: __dirname + '/dist',
         filename: 'resume_bundle.js'
+    },
+    resolve: {
+      extensions: [".ts", ".tsx", ".js", ".json"]
     },
     module: {
       rules: [
@@ -15,6 +18,9 @@ module.exports = {
             loader: "babel-loader"
           }
         },
+        { 
+          test: /\.tsx?$/, 
+          loader: "ts-loader" },
         {
           test: /\.html$/,
           use: [
