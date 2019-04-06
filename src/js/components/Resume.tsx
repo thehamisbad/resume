@@ -1,12 +1,17 @@
 import * as React from 'react';
-import { ResumeProperties } from '../properties/Resume';
+import { ResumeProperties } from '../interfaces/Resume';
 
 class Resume extends React.Component<ResumeProperties> {
 
     render () {
         return (
-            <div>
-                { this.props.name }
+            <div className='Resume-container'>
+                <div className='Resume-candidateName'>
+                    { this.props.name }
+                </div>
+                <div className='Resume-candidate-summary'>
+                    { this.props.summary }
+                </div>
             </div>
         )
     }

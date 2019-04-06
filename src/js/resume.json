@@ -1,0 +1,24 @@
+{
+    "name": "Alexander W. Badham",
+    "summary": "Natural technical leader, software engineer, mentor, and certified scrum master with demonstrated expertise in building and contributing to high performing teams and cross functional partnerships. Committed to continuous improvement as a champion of risk mitigation, code re-usability, embracing quality, and architecting business solutions that delight stakeholders.",
+    "menu": {
+        "items": [
+            {
+                "label": "Industry Experience & Impact",
+                "link": "/industry-experience"
+            },
+            {
+                "label": "Class Programming Projects",
+                "link": "/projects"
+            },
+            {
+                "label": "Non-Technical Experience",
+                "link": "/non-technical"
+            },
+            {
+                "label": "Technical Experience",
+                "link": "/technical"
+            }
+        ]
+    }
+}
