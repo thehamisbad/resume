@@ -1,8 +1,8 @@
 export interface MenuProperties {
-    items: MenuItemProperties[]
+    items: MenuItem[]
 }
 
-export interface MenuItemProperties {
+export interface MenuItem {
     label: string,
     link: string
 }

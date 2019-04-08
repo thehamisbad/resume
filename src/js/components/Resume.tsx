@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ResumeProperties } from '../interfaces/Resume';
+import Menu from './Menu';
 
 class Resume extends React.Component<ResumeProperties> {
 
@@ -12,6 +13,7 @@ class Resume extends React.Component<ResumeProperties> {
                 <div className='Resume-candidate-summary'>
                     { this.props.summary }
                 </div>
+                <Menu items={this.props.menu.items} />
             </div>
         )
     }
