@@ -1,0 +1,46 @@
+body {
+    background-color: #000000;
+    position: relative;
+    margin: 0;
+}
+
+.Resume-container {
+    padding: 2em 1em 1em;
+
+    @media (min-width: 480px) {
+        padding: 2em 2em 1em;
+    }
+
+    @media (min-width: 640px) {
+        padding: 2em  3em 1em;
+    }
+
+    @media (min-width: 960px) {
+        padding: 1em  5em;
+    }
+
+    @media (min-width: 1120px) {
+        padding: 1em  rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.Resume {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    @media (min-width: 1120px) {
+        max-width: 1280px;
+    }
+}
+
+.Resume-candidateName {
+    font-size: 2em;
+
+    @media (min-width: 960px) {
+        display: flex;
+        justify-content: center;
+    }
+}
