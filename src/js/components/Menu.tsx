@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import { MenuProperties } from '../interfaces/Menu';
 
 import '../../scss/menu.scss';
@@ -6,7 +7,9 @@ import '../../scss/menu.scss';
 class Menu extends React.Component<MenuProperties> {
 
     buildMenuItems() {
-        return this.props.items.map(item => (<li className='Menu-item'><a href={item.link}>{item.label}</a></li>));
+        return this.props.items.map(item => 
+                (<li className='Menu-item'><Link to={item.link}>{item.label}</Link></li>)
+            );
     }
 
     render() {

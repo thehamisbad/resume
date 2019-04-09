@@ -7,6 +7,11 @@
     overflow-y: auto;
     background-color: #228B22;
     border: 2px solid rgba(#FFF, 0.4);
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
 }
 
 .Menu-container {
@@ -29,6 +34,8 @@
     padding: 10px;
     width: auto;
     white-space: nowrap;
+    background-color: #228B22;
+    transition: background-color 0.3s ease;
 
     a {
         color: white;
@@ -41,6 +48,7 @@
 
     &:hover {
         background-color: #006400;
+        transition: background-color 0.3s ease;
     }
 }
 

@@ -5,19 +5,23 @@
         "items": [
             {
                 "label": "Industry Experience & Impact",
-                "link": "/industry-experience"
+                "link": "/industry-experience",
+                "key": "industry-experience"
             },
             {
                 "label": "Class Programming Projects",
-                "link": "/projects"
+                "link": "/projects",
+                "key": "projects"
             },
             {
                 "label": "Non-Technical Experience",
-                "link": "/non-technical"
+                "link": "/non-technical",
+                "key": "non-technical"
             },
             {
                 "label": "Technical Experience",
-                "link": "/technical"
+                "link": "/technical",
+                "key": "technical"
             }
         ]
     }
